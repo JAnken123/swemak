@@ -25,7 +25,7 @@ Replacing `Swedish (Dvorak)`
 
     sudo cp /usr/share/X11/xkb/symbols/se{,-backup}
     wget https://raw.githubusercontent.com/JAnken123/swemak/master/se
-    sudo cp se /usr/share/X11/xkb/symbols/se
+    sudo mv se /usr/share/X11/xkb/symbols/se
 
 For the changes to take affect, just log in and out. If you want to avoid the replace,
 you can do it the proper way by following these [instructions](https://ubuntuforums.org/showthread.php?t=188761).
