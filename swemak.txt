@@ -3,7 +3,7 @@
 
 // Swedish version by Arash Rouhani
 partial alphanumeric_keys
-xkb_symbols "swemak" {
+xkb_symbols "dvorak" {
     include "us"
     name[Group1]= "Swedish (Colemak)";
 
