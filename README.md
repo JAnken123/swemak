@@ -27,7 +27,11 @@ Replacing `Swedish (Dvorak)`
     wget https://raw.githubusercontent.com/JAnken123/swemak/master/se
     sudo mv se /usr/share/X11/xkb/symbols/se
 
-For the changes to take affect, just log in and out. If you want to avoid the replace,
+For the changes to take affect, just log in and out. Select Swedish (Dvorak) via GUI methods, or simply do
+
+    setxkbmap se -variant dvorak
+
+If you want to avoid the replace,
 you can do it the proper way by following these [instructions](https://ubuntuforums.org/showthread.php?t=188761).
 
 But really just replacing one of which you do not use is simpler.
